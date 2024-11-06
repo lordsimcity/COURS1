@@ -125,3 +125,33 @@ Questions :
 
 Étape 2 : Formuler une recommandation
 - Rédigez un court rapport justifiant le choix final entre Samba et OwnCloud.
+
+# Partie 4
+Etape 1 : Exercice de veille technologique
+
+- Recherchez les dernières innovations et tendances dans le domaine des systèmes de partage de fichiers ou de gestion de documents. 
+- Utilisez des sources comme des blogs spécialisés (PAS DE CHATGPT), des forums techniques, des articles de presse, et des sites d’actualités technologiques (ex. TechCrunch, ZDNet, ou GitHub).
+- Identifiez les fonctionnalités ou technologies récentes qui pourraient améliorer la sécurité, la compatibilité ou la performance de ces solutions.
+
+- Rédigez un court rapport de veille (1 page maximum) en expliquant les tendances identifiées et en décrivant les technologies qui pourraient être intégrées dans les solutions techniques pour en améliorer les performances et la sécurité
+Exemple de technologies à mentionner : chiffrement de bout en bout, intégration de l’intelligence artificielle pour la gestion de fichiers, nouvelles normes de compatibilité.
+
+
+Etape 2 : Deux scénarios différents pour lesquels vous devez choisir une solution de gestion de fichiers.
+
+Scénario A : Une petite entreprise avec un budget limité cherche une solution simple pour partager des fichiers en interne.
+Scénario B : Une entreprise internationale manipule des données sensibles et a besoin d’une solution compatible avec des systèmes variés et hautement sécurisée.
+
+- Adaptez les critères d’évaluation et leurs pondérations pour chaque scénario en fonction des priorités (coût, sécurité, compatibilité).
+ - Documentez pourquoi certains critères sont plus importants pour un scénario donné et expliquez les ajustements.
+
+En utilisant la grille d’évaluation ajustée pour chaque scénario, déterminez quelle solution convient le mieux à chaque cas.
+Justifiez vos choix en fonction des pondérations et des résultats de chaque solution.
+
+Etape 3 : Rédaction d’un guide de bonnes pratiques pour l’évaluation technique (30 minutes)
+
+- Rédigez un guide de bonnes pratiques d’une page, en listant les étapes clés pour une évaluation technique réussie.
+  Incluez des conseils pour chaque étape, notamment :
+  Comment définir des critères d’évaluation en fonction des besoins du projet.
+  Comment pondérer ces critères de manière efficace.
+  Comment structurer un rapport de synthèse pour une évaluation claire et justifiée.
