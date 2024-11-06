@@ -53,7 +53,28 @@ EXIT;
 - Déplacer le dossier owncloud dans /var/www/
 - Créer un utilisateur et l'ajouter au groupe www-data
 - Changer le propriétaire du dossier owncloud par l'utilisateur et son groupe créé.
-5. Redémarrez le service Apache pour que OwnCloud soit opérationnel 
+5. Changer le fichier de configuration :
+sudo nano /etc/apache2/sites-available/owncloud.conf
+<VirtualHost *:80>
+    ServerAdmin admin@yourdomain.com
+    DocumentRoot /var/www/owncloud
+    ServerName IP_MACHINE
+    <Directory /var/www/owncloud/>
+        Options +FollowSymlinks
+        AllowOverride All
+        Require all granted
+        <IfModule mod_dav.c>
+            Dav off
+        </IfModule>
+        SetEnv HOME /var/www/owncloud
+        SetEnv HTTP_HOME /var/www/owncloud
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+6. Redémarrez le service Apache pour que OwnCloud soit opérationnel 
 
 # Partie 2
 Étape 1 : Évaluation de la compatibilité
